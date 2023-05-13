@@ -1,0 +1,18 @@
+{
+    "add":
+    {
+        "description": "Adds all the numbers in a given list.",
+        "inputs": [
+            {
+                "name": "nums",
+                "type": "number list"
+            }
+        ],
+        "outputs": [
+            {
+                "name": "sum",
+                "type": "number"
+            }
+        ]
+    }
+}
