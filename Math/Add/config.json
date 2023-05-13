@@ -1,18 +1,35 @@
 {
-    "add":
-    {
-        "description": "Adds all the numbers in a given list.",
-        "inputs": [
-            {
-                "name": "nums",
-                "type": "number list"
-            }
-        ],
-        "outputs": [
-            {
-                "name": "sum",
-                "type": "number"
-            }
-        ]
-    }
+    "functions": [
+        {
+            "name": "add",
+            "description": "Adds all the numbers in a given list.",
+            "inputs": [
+                {
+                    "name": "nums",
+                    "type": "number list"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "sum",
+                    "type": "number"
+                }
+            ],
+            "requirements":[],
+            "examples": [
+                {
+                    "input": {
+                        "nums": [1, 2, 3, 4, 5]
+                    },
+                    "output": {
+                        "sum": 15
+                    }
+                }
+            ]
+        }
+    ],
+    "todos":[
+        "Add an attribute that defines any validation rules for the inputs for each function.",
+        "Add an attribute that defines how errors should be handled for each function."
+    ]
 }
