@@ -1,4 +1,5 @@
 {
+    "description":"A skill with functions for adding numbers.",
     "functions": [
         {
             "name": "add",
